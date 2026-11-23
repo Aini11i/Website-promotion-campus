@@ -1,117 +1,54 @@
 
 <template>
   <section class="contact-section" id="contact">
-    <div class="contact-container">
-      <h2>Contact Us</h2>
+    <h2>Contact Us</h2>
 
-      <p>
-        Have questions about PresUniv Pekanbaru?
-        Contact us through the links below.
-      </p>
+    <p>
+      Have questions about our campus?
+      Contact us through the links below.
+    </p>
 
-      <div class="contact-links">
-        <a
-          href="https://www.instagram.com/presunivpekanbaru/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="contact-button"
-        >
-          Instagram
-        </a>
+    <div class="contact-links">
+      <a href="#" target="_blank">
+        Instagram
+      </a>
 
-        <a
-          href="https://wa.me/6285942363468"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="contact-button"
-        >
-          WhatsApp
-        </a>
-
-        <a
-          href="mailto:presuniv_pekanbaru@president.ac.id"
-          class="contact-button"
-        >
-          Email
-        </a>
-      </div>
+      <a href="#" target="_blank">
+        WhatsApp
+      </a>
     </div>
   </section>
 </template>
 
 <style scoped>
 .contact-section {
-  width: 100%;
-  padding: 80px 20px;
-  background-color: #f4f7fb;
+  padding: 60px 20px;
   text-align: center;
-  box-sizing: border-box;
-}
-
-.contact-container {
-  max-width: 800px;
-  margin: 0 auto;
+  background-color: #f4f7fb;
 }
 
 .contact-section h2 {
-  font-size: 36px;
-  margin: 0 0 18px;
-  color: #183653;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
 
 .contact-section p {
   color: #555;
-  font-size: 17px;
-  line-height: 1.7;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .contact-links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
-.contact-button {
-  display: inline-block;
-  min-width: 130px;
-  padding: 14px 24px;
+.contact-links a {
   background-color: #234b78;
   color: white;
+  padding: 12px 25px;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: #183653;
-}
-
-@media (max-width: 600px) {
-  .contact-section {
-    padding: 55px 20px;
-  }
-
-  .contact-section h2 {
-    font-size: 28px;
-  }
-
-  .contact-section p {
-    font-size: 15px;
-  }
-
-  .contact-links {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .contact-button {
-    width: 100%;
-    max-width: 260px;
-    box-sizing: border-box;
-  }
 }
 </style>
