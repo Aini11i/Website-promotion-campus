@@ -1,0 +1,113 @@
+{
+  "about": {
+    "vision": "To become a leading and competitive university that produces graduates of strong character.",
+    "mission": [
+      "Provide high-quality education that is relevant to industry needs.",
+      "Encourage research and community service.",
+      "Build an inclusive and innovative campus environment."
+    ],
+    "history": [
+      {
+        "year": "2024",
+        "text": "President University officially inaugurated its Pekanbaru campus (PSDKU) at Central Plaza, Jl. Jend. Ahmad Yani."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dinarti Tarigan, BBA., MBA",
+        "role": "Director",
+        "photo": "/images/team-director.jpg"
+      },
+      {
+        "name": "Prof. Dr. Ir. Wiranto Herry Utomo, M.Kom.",
+        "role": "Dean",
+        "photo": "/images/team-dean.jpg"
+      },
+      {
+        "name": "Arif Hardi, S.T., M.Sc.",
+        "role": "Head of Informatics Program",
+        "photo": "/images/team-head-it.jpg"
+      },
+      {
+        "name": "Arif Hardi, S.T., M.Sc.",
+        "role": "Head of Information Systems Program",
+        "photo": "/images/team-head-is.jpg"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": "informatics",
+      "name": "Informatics",
+      "description": "Learn software development, algorithms, and computing technologies to build solutions for the digital era.",
+      "image": "/images/program-informatics.jpg"
+    },
+    {
+      "id": "information-systems",
+      "name": "Information Systems",
+      "description": "Learn how to design and manage information systems that connect technology with business needs.",
+      "image": "/images/program-information-systems.jpg"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "lobby-reception",
+      "name": "Lobby & Reception",
+      "image": "/images/facility-lobby&reception.jpg"
+    },
+    {
+      "id": "lounge",
+      "name": "Lounge",
+      "image": "/images/facility-lounge.jpg"
+    },
+    {
+      "id": "classroom",
+      "name": "Classroom",
+      "image": "/images/facility-classroom.jpg"
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "image": "/images/facility-library.jpg"
+    },
+    {
+      "id": "computer-lab",
+      "name": "Computer Laboratory",
+      "image": "/images/facility-computer-lab.jpg"
+    }
+  ],
+  "tuition": {
+    "title": "Tuition & Admission",
+    "subtitle": "Tuition information, admission paths, and scholarships",
+    "details": "For the latest information about tuition fees and payment schemes, please contact our admissions team through Instagram or WhatsApp.",
+    "admissionPaths": [
+      {
+        "id": 1,
+        "name": "Regular Path",
+        "description": "Open to all high school graduates through the standard selection test."
+      },
+      {
+        "id": 2,
+        "name": "Achievement Path",
+        "description": "Based on academic report cards and achievements."
+      },
+      {
+        "id": 3,
+        "name": "Scholarship Path",
+        "description": "For outstanding students who need financial support."
+      }
+    ],
+    "scholarships": [
+      {
+        "id": 1,
+        "name": "Academic Excellence",
+        "description": "Tuition discount for students with top grades."
+      },
+      {
+        "id": 2,
+        "name": "Financial Aid",
+        "description": "Support for students from families in need."
+      }
+    ]
+  }
+}
